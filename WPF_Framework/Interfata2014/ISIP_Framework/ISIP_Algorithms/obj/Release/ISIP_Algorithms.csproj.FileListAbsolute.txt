@@ -1,0 +1,8 @@
+c:\users\andrei\documents\visual studio 2010\Projects\ISIP_Framework\bin\Release\ISIP_Algorithms.dll
+c:\users\andrei\documents\visual studio 2010\Projects\ISIP_Framework\bin\Release\ISIP_Algorithms.pdb
+c:\users\andrei\documents\visual studio 2010\Projects\ISIP_Framework\ISIP_Algorithms\obj\Release\ISIP_Algorithms.dll
+c:\users\andrei\documents\visual studio 2010\Projects\ISIP_Framework\ISIP_Algorithms\obj\Release\ISIP_Algorithms.pdb
+C:\Users\Andrei\Documents\Visual Studio 2013\Projects\ISIP_VS2010\ISIP_Framework\bin\Release\ISIP_Algorithms.dll
+C:\Users\Andrei\Documents\Visual Studio 2013\Projects\ISIP_VS2010\ISIP_Framework\bin\Release\ISIP_Algorithms.pdb
+C:\Users\Andrei\Documents\Visual Studio 2013\Projects\ISIP_VS2010\ISIP_Framework\ISIP_Algorithms\obj\Release\ISIP_Algorithms.dll
+C:\Users\Andrei\Documents\Visual Studio 2013\Projects\ISIP_VS2010\ISIP_Framework\ISIP_Algorithms\obj\Release\ISIP_Algorithms.pdb

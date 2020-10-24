@@ -1,0 +1,43 @@
+c:\users\andrei\documents\visual studio 2010\Projects\ISIP_Framework\ISIP_Algorithms\bin\Debug\ISIP_Algorithms.dll
+c:\users\andrei\documents\visual studio 2010\Projects\ISIP_Framework\ISIP_Algorithms\bin\Debug\ISIP_Algorithms.pdb
+c:\users\andrei\documents\visual studio 2010\Projects\ISIP_Framework\ISIP_Algorithms\obj\Debug\ISIP_Algorithms.dll
+c:\users\andrei\documents\visual studio 2010\Projects\ISIP_Framework\ISIP_Algorithms\obj\Debug\ISIP_Algorithms.pdb
+c:\users\andrei\documents\visual studio 2010\Projects\ISIP_Framework\bin\Debug\ISIP_Algorithms.dll
+c:\users\andrei\documents\visual studio 2010\Projects\ISIP_Framework\bin\Debug\ISIP_Algorithms.pdb
+C:\Users\Andrei\Documents\Visual Studio 2013\Projects\ISIP_VS2010\ISIP_Framework\bin\Debug\ISIP_Algorithms.dll
+C:\Users\Andrei\Documents\Visual Studio 2013\Projects\ISIP_VS2010\ISIP_Framework\bin\Debug\ISIP_Algorithms.pdb
+C:\Users\Andrei\Documents\Visual Studio 2013\Projects\ISIP_VS2010\ISIP_Framework\ISIP_Algorithms\obj\Debug\ISIP_Algorithms.csprojResolveAssemblyReference.cache
+C:\Users\Andrei\Documents\Visual Studio 2013\Projects\ISIP_VS2010\ISIP_Framework\ISIP_Algorithms\obj\Debug\ISIP_Algorithms.dll
+C:\Users\Andrei\Documents\Visual Studio 2013\Projects\ISIP_VS2010\ISIP_Framework\ISIP_Algorithms\obj\Debug\ISIP_Algorithms.pdb
+C:\Dokumente und Einstellungen\Ioana\Eigene Dateien\Facultate\ISIP2014\ISIP_VS2010\ISIP_Framework\bin\Debug\ISIP_Algorithms.dll
+C:\Dokumente und Einstellungen\Ioana\Eigene Dateien\Facultate\ISIP2014\ISIP_VS2010\ISIP_Framework\bin\Debug\ISIP_Algorithms.pdb
+C:\Dokumente und Einstellungen\Ioana\Eigene Dateien\Facultate\ISIP2014\ISIP_VS2010\ISIP_Framework\ISIP_Algorithms\obj\Debug\ResolveAssemblyReference.cache
+C:\Dokumente und Einstellungen\Ioana\Eigene Dateien\Facultate\ISIP2014\ISIP_VS2010\ISIP_Framework\ISIP_Algorithms\obj\Debug\ISIP_Algorithms.dll
+C:\Dokumente und Einstellungen\Ioana\Eigene Dateien\Facultate\ISIP2014\ISIP_VS2010\ISIP_Framework\ISIP_Algorithms\obj\Debug\ISIP_Algorithms.pdb
+C:\Dokumente und Einstellungen\Ioana\Eigene Dateien\Facultate\PrelImag\Curs2013\ISIP_VS2010\ISIP_Framework\bin\Debug\ISIP_Algorithms.dll
+C:\Dokumente und Einstellungen\Ioana\Eigene Dateien\Facultate\PrelImag\Curs2013\ISIP_VS2010\ISIP_Framework\bin\Debug\ISIP_Algorithms.pdb
+C:\Dokumente und Einstellungen\Ioana\Eigene Dateien\Facultate\PrelImag\Curs2013\ISIP_VS2010\ISIP_Framework\ISIP_Algorithms\obj\Debug\ResolveAssemblyReference.cache
+C:\Dokumente und Einstellungen\Ioana\Eigene Dateien\Facultate\PrelImag\Curs2013\ISIP_VS2010\ISIP_Framework\ISIP_Algorithms\obj\Debug\ISIP_Algorithms.dll
+C:\Dokumente und Einstellungen\Ioana\Eigene Dateien\Facultate\PrelImag\Curs2013\ISIP_VS2010\ISIP_Framework\ISIP_Algorithms\obj\Debug\ISIP_Algorithms.pdb
+C:\Dokumente und Einstellungen\Ioana\Eigene Dateien\Facultate\PrelImag\Curs2013\Interfata2014\ISIP_Framework\bin\Debug\ISIP_Algorithms.dll
+C:\Dokumente und Einstellungen\Ioana\Eigene Dateien\Facultate\PrelImag\Curs2013\Interfata2014\ISIP_Framework\bin\Debug\ISIP_Algorithms.pdb
+C:\Dokumente und Einstellungen\Ioana\Eigene Dateien\Facultate\PrelImag\Curs2013\Interfata2014\ISIP_Framework\ISIP_Algorithms\obj\Debug\ResolveAssemblyReference.cache
+C:\Dokumente und Einstellungen\Ioana\Eigene Dateien\Facultate\PrelImag\Curs2013\Interfata2014\ISIP_Framework\ISIP_Algorithms\obj\Debug\ISIP_Algorithms.dll
+C:\Dokumente und Einstellungen\Ioana\Eigene Dateien\Facultate\PrelImag\Curs2013\Interfata2014\ISIP_Framework\ISIP_Algorithms\obj\Debug\ISIP_Algorithms.pdb
+C:\Users\iplajer\Documents\Facultate\PrelImag\Curs2013\Interfata2014\ISIP_Framework\bin\Debug\ISIP_Algorithms.dll
+C:\Users\iplajer\Documents\Facultate\PrelImag\Curs2013\Interfata2014\ISIP_Framework\bin\Debug\ISIP_Algorithms.pdb
+C:\Users\iplajer\Documents\Facultate\PrelImag\Curs2013\Interfata2014\ISIP_Framework\ISIP_Algorithms\obj\Debug\ISIP_Algorithms.csprojResolveAssemblyReference.cache
+C:\Users\iplajer\Documents\Facultate\PrelImag\Curs2013\Interfata2014\ISIP_Framework\ISIP_Algorithms\obj\Debug\ISIP_Algorithms.dll
+C:\Users\iplajer\Documents\Facultate\PrelImag\Curs2013\Interfata2014\ISIP_Framework\ISIP_Algorithms\obj\Debug\ISIP_Algorithms.pdb
+C:\Users\iplajer\Documents\Facultate\PrelIm2016\ISIP2016\Interfata2014\ISIP_Framework\bin\Debug\ISIP_Algorithms.dll
+C:\Users\iplajer\Documents\Facultate\PrelIm2016\ISIP2016\Interfata2014\ISIP_Framework\bin\Debug\ISIP_Algorithms.pdb
+C:\Users\iplajer\Documents\Facultate\PrelIm2016\ISIP2016\Interfata2014\ISIP_Framework\ISIP_Algorithms\obj\Debug\ISIP_Algorithms.csprojResolveAssemblyReference.cache
+C:\Users\iplajer\Documents\Facultate\PrelIm2016\ISIP2016\Interfata2014\ISIP_Framework\ISIP_Algorithms\obj\Debug\ISIP_Algorithms.dll
+C:\Users\iplajer\Documents\Facultate\PrelIm2016\ISIP2016\Interfata2014\ISIP_Framework\ISIP_Algorithms\obj\Debug\ISIP_Algorithms.pdb
+C:\Users\Lucian\Desktop\WPF_Framework\Interfata2014\ISIP_Framework\bin\Debug\ISIP_Algorithms.dll
+C:\Users\Lucian\Desktop\WPF_Framework\Interfata2014\ISIP_Framework\bin\Debug\ISIP_Algorithms.pdb
+C:\Users\Lucian\Desktop\WPF_Framework\Interfata2014\ISIP_Framework\ISIP_Algorithms\obj\Debug\ISIP_Algorithms.csprojAssemblyReference.cache
+C:\Users\Lucian\Desktop\WPF_Framework\Interfata2014\ISIP_Framework\ISIP_Algorithms\obj\Debug\ISIP_Algorithms.csproj.CoreCompileInputs.cache
+C:\Users\Lucian\Desktop\WPF_Framework\Interfata2014\ISIP_Framework\ISIP_Algorithms\obj\Debug\ISIP_Algorithms.csproj.CopyComplete
+C:\Users\Lucian\Desktop\WPF_Framework\Interfata2014\ISIP_Framework\ISIP_Algorithms\obj\Debug\ISIP_Algorithms.dll
+C:\Users\Lucian\Desktop\WPF_Framework\Interfata2014\ISIP_Framework\ISIP_Algorithms\obj\Debug\ISIP_Algorithms.pdb

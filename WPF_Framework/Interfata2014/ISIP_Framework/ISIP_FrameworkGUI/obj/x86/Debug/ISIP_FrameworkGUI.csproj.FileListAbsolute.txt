@@ -1,0 +1,135 @@
+c:\users\andrei\documents\visual studio 2010\Projects\ISIP_Framework\ISIP_FrameworkGUI\bin\Debug\ISIP_FrameworkGUI.exe
+c:\users\andrei\documents\visual studio 2010\Projects\ISIP_Framework\ISIP_FrameworkGUI\bin\Debug\ISIP_FrameworkGUI.pdb
+c:\users\andrei\documents\visual studio 2010\Projects\ISIP_Framework\ISIP_FrameworkGUI\bin\Debug\ISIP_Algorithms.dll
+c:\users\andrei\documents\visual studio 2010\Projects\ISIP_Framework\ISIP_FrameworkGUI\bin\Debug\ISIP_Algorithms.pdb
+c:\users\andrei\documents\visual studio 2010\Projects\ISIP_Framework\ISIP_FrameworkGUI\obj\x86\Debug\ISIP_FrameworkGUI.csprojResolveAssemblyReference.cache
+c:\users\andrei\documents\visual studio 2010\Projects\ISIP_Framework\ISIP_FrameworkGUI\obj\x86\Debug\MainWindow.baml
+c:\users\andrei\documents\visual studio 2010\Projects\ISIP_Framework\ISIP_FrameworkGUI\obj\x86\Debug\MainWindow.g.cs
+c:\users\andrei\documents\visual studio 2010\Projects\ISIP_Framework\ISIP_FrameworkGUI\obj\x86\Debug\App.g.cs
+c:\users\andrei\documents\visual studio 2010\Projects\ISIP_Framework\ISIP_FrameworkGUI\obj\x86\Debug\ISIP_FrameworkGUI_MarkupCompile.cache
+c:\users\andrei\documents\visual studio 2010\Projects\ISIP_Framework\ISIP_FrameworkGUI\obj\x86\Debug\ISIP_FrameworkGUI.g.resources
+c:\users\andrei\documents\visual studio 2010\Projects\ISIP_Framework\ISIP_FrameworkGUI\obj\x86\Debug\ISIP_FrameworkGUI.Properties.Resources.resources
+c:\users\andrei\documents\visual studio 2010\Projects\ISIP_Framework\ISIP_FrameworkGUI\obj\x86\Debug\ISIP_FrameworkGUI.csproj.GenerateResource.Cache
+c:\users\andrei\documents\visual studio 2010\Projects\ISIP_Framework\ISIP_FrameworkGUI\obj\x86\Debug\ISIP_FrameworkGUI.exe
+c:\users\andrei\documents\visual studio 2010\Projects\ISIP_Framework\ISIP_FrameworkGUI\obj\x86\Debug\ISIP_FrameworkGUI.pdb
+c:\users\andrei\documents\visual studio 2010\Projects\ISIP_Framework\bin\Debug\ISIP_FrameworkGUI.exe
+c:\users\andrei\documents\visual studio 2010\Projects\ISIP_Framework\bin\Debug\ISIP_FrameworkGUI.pdb
+C:\Users\Andrei\Documents\Visual Studio 2013\Projects\ISIP_VS2010\ISIP_Framework\ISIP_FrameworkGUI\obj\x86\Debug\ISIP_FrameworkGUI.exe
+C:\Users\Andrei\Documents\Visual Studio 2013\Projects\ISIP_VS2010\ISIP_Framework\ISIP_FrameworkGUI\obj\x86\Debug\ISIP_FrameworkGUI.pdb
+C:\Users\Andrei\Documents\Visual Studio 2013\Projects\ISIP_VS2010\ISIP_Framework\ISIP_FrameworkGUI\obj\x86\Debug\ISIP_FrameworkGUI.csprojResolveAssemblyReference.cache
+C:\Users\Andrei\Documents\Visual Studio 2013\Projects\ISIP_VS2010\ISIP_Framework\ISIP_FrameworkGUI\obj\x86\Debug\MainWindow.baml
+C:\Users\Andrei\Documents\Visual Studio 2013\Projects\ISIP_VS2010\ISIP_Framework\ISIP_FrameworkGUI\obj\x86\Debug\MainWindow.g.cs
+C:\Users\Andrei\Documents\Visual Studio 2013\Projects\ISIP_VS2010\ISIP_Framework\ISIP_FrameworkGUI\obj\x86\Debug\App.g.cs
+C:\Users\Andrei\Documents\Visual Studio 2013\Projects\ISIP_VS2010\ISIP_Framework\ISIP_FrameworkGUI\obj\x86\Debug\ISIP_FrameworkGUI_MarkupCompile.cache
+C:\Users\Andrei\Documents\Visual Studio 2013\Projects\ISIP_VS2010\ISIP_Framework\ISIP_FrameworkGUI\obj\x86\Debug\ISIP_FrameworkGUI.g.resources
+C:\Users\Andrei\Documents\Visual Studio 2013\Projects\ISIP_VS2010\ISIP_Framework\ISIP_FrameworkGUI\obj\x86\Debug\ISIP_FrameworkGUI.Properties.Resources.resources
+C:\Users\Andrei\Documents\Visual Studio 2013\Projects\ISIP_VS2010\ISIP_Framework\ISIP_FrameworkGUI\obj\x86\Debug\ISIP_FrameworkGUI.csproj.GenerateResource.Cache
+C:\Users\Andrei\Documents\Visual Studio 2013\Projects\ISIP_VS2010\ISIP_Framework\bin\Debug\ISIP_FrameworkGUI.exe
+C:\Users\Andrei\Documents\Visual Studio 2013\Projects\ISIP_VS2010\ISIP_Framework\bin\Debug\ISIP_FrameworkGUI.pdb
+C:\Dokumente und Einstellungen\Ioana\Eigene Dateien\Facultate\ISIP2014\ISIP_VS2010\ISIP_Framework\ISIP_FrameworkGUI\obj\x86\Debug\ISIP_FrameworkGUI.exe
+C:\Dokumente und Einstellungen\Ioana\Eigene Dateien\Facultate\ISIP2014\ISIP_VS2010\ISIP_Framework\ISIP_FrameworkGUI\obj\x86\Debug\ISIP_FrameworkGUI.pdb
+C:\Dokumente und Einstellungen\Ioana\Eigene Dateien\Facultate\ISIP2014\ISIP_VS2010\ISIP_Framework\bin\Debug\ISIP_FrameworkGUI.exe
+C:\Dokumente und Einstellungen\Ioana\Eigene Dateien\Facultate\ISIP2014\ISIP_VS2010\ISIP_Framework\bin\Debug\ISIP_FrameworkGUI.pdb
+C:\Dokumente und Einstellungen\Ioana\Eigene Dateien\Facultate\ISIP2014\ISIP_VS2010\ISIP_Framework\ISIP_FrameworkGUI\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Dokumente und Einstellungen\Ioana\Eigene Dateien\Facultate\ISIP2014\ISIP_VS2010\ISIP_Framework\ISIP_FrameworkGUI\obj\x86\Debug\MainWindow.baml
+C:\Dokumente und Einstellungen\Ioana\Eigene Dateien\Facultate\ISIP2014\ISIP_VS2010\ISIP_Framework\ISIP_FrameworkGUI\obj\x86\Debug\MainWindow.g.cs
+C:\Dokumente und Einstellungen\Ioana\Eigene Dateien\Facultate\ISIP2014\ISIP_VS2010\ISIP_Framework\ISIP_FrameworkGUI\obj\x86\Debug\App.g.cs
+C:\Dokumente und Einstellungen\Ioana\Eigene Dateien\Facultate\ISIP2014\ISIP_VS2010\ISIP_Framework\ISIP_FrameworkGUI\obj\x86\Debug\ISIP_FrameworkGUI_MarkupCompile.cache
+C:\Dokumente und Einstellungen\Ioana\Eigene Dateien\Facultate\ISIP2014\ISIP_VS2010\ISIP_Framework\ISIP_FrameworkGUI\obj\x86\Debug\ISIP_FrameworkGUI.g.resources
+C:\Dokumente und Einstellungen\Ioana\Eigene Dateien\Facultate\ISIP2014\ISIP_VS2010\ISIP_Framework\ISIP_FrameworkGUI\obj\x86\Debug\ISIP_FrameworkGUI.Properties.Resources.resources
+C:\Dokumente und Einstellungen\Ioana\Eigene Dateien\Facultate\ISIP2014\ISIP_VS2010\ISIP_Framework\ISIP_FrameworkGUI\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Dokumente und Einstellungen\Ioana\Eigene Dateien\Facultate\ISIP2014\ISIP_VS2010\ISIP_Framework\ISIP_FrameworkGUI\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Dokumente und Einstellungen\Ioana\Eigene Dateien\Facultate\ISIP2014\ISIP_VS2010\ISIP_Framework\ISIP_FrameworkGUI\obj\x86\Debug\Windows\Grafica.baml
+C:\Dokumente und Einstellungen\Ioana\Eigene Dateien\Facultate\ISIP2014\ISIP_VS2010\ISIP_Framework\ISIP_FrameworkGUI\obj\x86\Debug\Windows\Grafica.g.cs
+C:\Dokumente und Einstellungen\Ioana\Eigene Dateien\Facultate\PrelImag\Curs2013\ISIP_VS2010\ISIP_Framework\ISIP_FrameworkGUI\obj\x86\Debug\ISIP_FrameworkGUI.exe
+C:\Dokumente und Einstellungen\Ioana\Eigene Dateien\Facultate\PrelImag\Curs2013\ISIP_VS2010\ISIP_Framework\ISIP_FrameworkGUI\obj\x86\Debug\ISIP_FrameworkGUI.pdb
+C:\Dokumente und Einstellungen\Ioana\Eigene Dateien\Facultate\PrelImag\Curs2013\ISIP_VS2010\ISIP_Framework\ISIP_FrameworkGUI\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Dokumente und Einstellungen\Ioana\Eigene Dateien\Facultate\PrelImag\Curs2013\ISIP_VS2010\ISIP_Framework\ISIP_FrameworkGUI\obj\x86\Debug\MainWindow.baml
+C:\Dokumente und Einstellungen\Ioana\Eigene Dateien\Facultate\PrelImag\Curs2013\ISIP_VS2010\ISIP_Framework\ISIP_FrameworkGUI\obj\x86\Debug\Windows\GL_onRow.baml
+C:\Dokumente und Einstellungen\Ioana\Eigene Dateien\Facultate\PrelImag\Curs2013\ISIP_VS2010\ISIP_Framework\ISIP_FrameworkGUI\obj\x86\Debug\Windows\Grafica.baml
+C:\Dokumente und Einstellungen\Ioana\Eigene Dateien\Facultate\PrelImag\Curs2013\ISIP_VS2010\ISIP_Framework\ISIP_FrameworkGUI\obj\x86\Debug\MainWindow.g.cs
+C:\Dokumente und Einstellungen\Ioana\Eigene Dateien\Facultate\PrelImag\Curs2013\ISIP_VS2010\ISIP_Framework\ISIP_FrameworkGUI\obj\x86\Debug\Windows\GL_onRow.g.cs
+C:\Dokumente und Einstellungen\Ioana\Eigene Dateien\Facultate\PrelImag\Curs2013\ISIP_VS2010\ISIP_Framework\ISIP_FrameworkGUI\obj\x86\Debug\Windows\Grafica.g.cs
+C:\Dokumente und Einstellungen\Ioana\Eigene Dateien\Facultate\PrelImag\Curs2013\ISIP_VS2010\ISIP_Framework\ISIP_FrameworkGUI\obj\x86\Debug\App.g.cs
+C:\Dokumente und Einstellungen\Ioana\Eigene Dateien\Facultate\PrelImag\Curs2013\ISIP_VS2010\ISIP_Framework\ISIP_FrameworkGUI\obj\x86\Debug\ISIP_FrameworkGUI_MarkupCompile.cache
+C:\Dokumente und Einstellungen\Ioana\Eigene Dateien\Facultate\PrelImag\Curs2013\ISIP_VS2010\ISIP_Framework\ISIP_FrameworkGUI\obj\x86\Debug\ISIP_FrameworkGUI.g.resources
+C:\Dokumente und Einstellungen\Ioana\Eigene Dateien\Facultate\PrelImag\Curs2013\ISIP_VS2010\ISIP_Framework\ISIP_FrameworkGUI\obj\x86\Debug\ISIP_FrameworkGUI.Properties.Resources.resources
+C:\Dokumente und Einstellungen\Ioana\Eigene Dateien\Facultate\PrelImag\Curs2013\ISIP_VS2010\ISIP_Framework\ISIP_FrameworkGUI\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Dokumente und Einstellungen\Ioana\Eigene Dateien\Facultate\PrelImag\Curs2013\ISIP_VS2010\ISIP_Framework\ISIP_FrameworkGUI\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Dokumente und Einstellungen\Ioana\Eigene Dateien\Facultate\PrelImag\Curs2013\ISIP_VS2010\ISIP_Framework\bin\Debug\ISIP_FrameworkGUI.exe
+C:\Dokumente und Einstellungen\Ioana\Eigene Dateien\Facultate\PrelImag\Curs2013\ISIP_VS2010\ISIP_Framework\bin\Debug\ISIP_FrameworkGUI.pdb
+C:\Dokumente und Einstellungen\Ioana\Eigene Dateien\Facultate\PrelImag\Curs2013\ISIP_VS2010\ISIP_Framework\ISIP_FrameworkGUI\obj\x86\Debug\Windows\HistogrammShow.baml
+C:\Dokumente und Einstellungen\Ioana\Eigene Dateien\Facultate\PrelImag\Curs2013\ISIP_VS2010\ISIP_Framework\ISIP_FrameworkGUI\obj\x86\Debug\Windows\HistogrammShow.g.cs
+C:\Dokumente und Einstellungen\Ioana\Eigene Dateien\Facultate\PrelImag\Curs2013\Interfata2014\ISIP_Framework\ISIP_FrameworkGUI\obj\x86\Debug\ISIP_FrameworkGUI.exe
+C:\Dokumente und Einstellungen\Ioana\Eigene Dateien\Facultate\PrelImag\Curs2013\Interfata2014\ISIP_Framework\ISIP_FrameworkGUI\obj\x86\Debug\ISIP_FrameworkGUI.pdb
+C:\Dokumente und Einstellungen\Ioana\Eigene Dateien\Facultate\PrelImag\Curs2013\Interfata2014\ISIP_Framework\bin\Debug\ISIP_FrameworkGUI.exe
+C:\Dokumente und Einstellungen\Ioana\Eigene Dateien\Facultate\PrelImag\Curs2013\Interfata2014\ISIP_Framework\bin\Debug\ISIP_FrameworkGUI.pdb
+C:\Dokumente und Einstellungen\Ioana\Eigene Dateien\Facultate\PrelImag\Curs2013\Interfata2014\ISIP_Framework\ISIP_FrameworkGUI\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Dokumente und Einstellungen\Ioana\Eigene Dateien\Facultate\PrelImag\Curs2013\Interfata2014\ISIP_Framework\ISIP_FrameworkGUI\obj\x86\Debug\MainWindow.baml
+C:\Dokumente und Einstellungen\Ioana\Eigene Dateien\Facultate\PrelImag\Curs2013\Interfata2014\ISIP_Framework\ISIP_FrameworkGUI\obj\x86\Debug\MainWindow.g.cs
+C:\Dokumente und Einstellungen\Ioana\Eigene Dateien\Facultate\PrelImag\Curs2013\Interfata2014\ISIP_Framework\ISIP_FrameworkGUI\obj\x86\Debug\App.g.cs
+C:\Dokumente und Einstellungen\Ioana\Eigene Dateien\Facultate\PrelImag\Curs2013\Interfata2014\ISIP_Framework\ISIP_FrameworkGUI\obj\x86\Debug\ISIP_FrameworkGUI_MarkupCompile.cache
+C:\Dokumente und Einstellungen\Ioana\Eigene Dateien\Facultate\PrelImag\Curs2013\Interfata2014\ISIP_Framework\ISIP_FrameworkGUI\obj\x86\Debug\ISIP_FrameworkGUI.g.resources
+C:\Dokumente und Einstellungen\Ioana\Eigene Dateien\Facultate\PrelImag\Curs2013\Interfata2014\ISIP_Framework\ISIP_FrameworkGUI\obj\x86\Debug\ISIP_FrameworkGUI.Properties.Resources.resources
+C:\Dokumente und Einstellungen\Ioana\Eigene Dateien\Facultate\PrelImag\Curs2013\Interfata2014\ISIP_Framework\ISIP_FrameworkGUI\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Dokumente und Einstellungen\Ioana\Eigene Dateien\Facultate\PrelImag\Curs2013\Interfata2014\ISIP_Framework\ISIP_FrameworkGUI\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\iplajer\Documents\Facultate\PrelImag\Curs2013\Interfata2014\ISIP_Framework\ISIP_FrameworkGUI\obj\x86\Debug\ISIP_FrameworkGUI.exe
+C:\Users\iplajer\Documents\Facultate\PrelImag\Curs2013\Interfata2014\ISIP_Framework\ISIP_FrameworkGUI\obj\x86\Debug\ISIP_FrameworkGUI.pdb
+C:\Users\iplajer\Documents\Facultate\PrelImag\Curs2013\Interfata2014\ISIP_Framework\bin\Debug\ISIP_FrameworkGUI.exe
+C:\Users\iplajer\Documents\Facultate\PrelImag\Curs2013\Interfata2014\ISIP_Framework\bin\Debug\ISIP_FrameworkGUI.pdb
+C:\Users\iplajer\Documents\Facultate\PrelImag\Curs2013\Interfata2014\ISIP_Framework\ISIP_FrameworkGUI\obj\x86\Debug\ISIP_FrameworkGUI.csprojResolveAssemblyReference.cache
+C:\Users\iplajer\Documents\Facultate\PrelImag\Curs2013\Interfata2014\ISIP_Framework\ISIP_FrameworkGUI\obj\x86\Debug\MainWindow.baml
+C:\Users\iplajer\Documents\Facultate\PrelImag\Curs2013\Interfata2014\ISIP_Framework\ISIP_FrameworkGUI\obj\x86\Debug\MainWindow.g.cs
+C:\Users\iplajer\Documents\Facultate\PrelImag\Curs2013\Interfata2014\ISIP_Framework\ISIP_FrameworkGUI\obj\x86\Debug\App.g.cs
+C:\Users\iplajer\Documents\Facultate\PrelImag\Curs2013\Interfata2014\ISIP_Framework\ISIP_FrameworkGUI\obj\x86\Debug\ISIP_FrameworkGUI_MarkupCompile.cache
+C:\Users\iplajer\Documents\Facultate\PrelImag\Curs2013\Interfata2014\ISIP_Framework\ISIP_FrameworkGUI\obj\x86\Debug\ISIP_FrameworkGUI.g.resources
+C:\Users\iplajer\Documents\Facultate\PrelImag\Curs2013\Interfata2014\ISIP_Framework\ISIP_FrameworkGUI\obj\x86\Debug\ISIP_FrameworkGUI.Properties.Resources.resources
+C:\Users\iplajer\Documents\Facultate\PrelImag\Curs2013\Interfata2014\ISIP_Framework\ISIP_FrameworkGUI\obj\x86\Debug\ISIP_FrameworkGUI.csproj.GenerateResource.Cache
+C:\Users\iplajer\Documents\Facultate\PrelImag\ISIP2016\Interfata2014\ISIP_Framework\ISIP_FrameworkGUI\obj\x86\Debug\ISIP_FrameworkGUI.exe
+C:\Users\iplajer\Documents\Facultate\PrelImag\ISIP2016\Interfata2014\ISIP_Framework\ISIP_FrameworkGUI\obj\x86\Debug\ISIP_FrameworkGUI.pdb
+C:\Users\iplajer\Documents\Facultate\PrelImag\ISIP2016\Interfata2014\ISIP_Framework\bin\Debug\ISIP_FrameworkGUI.exe
+C:\Users\iplajer\Documents\Facultate\PrelImag\ISIP2016\Interfata2014\ISIP_Framework\bin\Debug\ISIP_FrameworkGUI.pdb
+C:\Users\iplajer\Documents\Facultate\PrelImag\ISIP2016\Interfata2014\ISIP_Framework\ISIP_FrameworkGUI\obj\x86\Debug\ISIP_FrameworkGUI.csprojResolveAssemblyReference.cache
+C:\Users\iplajer\Documents\Facultate\PrelImag\ISIP2016\Interfata2014\ISIP_Framework\ISIP_FrameworkGUI\obj\x86\Debug\MainWindow.baml
+C:\Users\iplajer\Documents\Facultate\PrelImag\ISIP2016\Interfata2014\ISIP_Framework\ISIP_FrameworkGUI\obj\x86\Debug\MainWindow.g.cs
+C:\Users\iplajer\Documents\Facultate\PrelImag\ISIP2016\Interfata2014\ISIP_Framework\ISIP_FrameworkGUI\obj\x86\Debug\App.g.cs
+C:\Users\iplajer\Documents\Facultate\PrelImag\ISIP2016\Interfata2014\ISIP_Framework\ISIP_FrameworkGUI\obj\x86\Debug\ISIP_FrameworkGUI_MarkupCompile.cache
+C:\Users\iplajer\Documents\Facultate\PrelImag\ISIP2016\Interfata2014\ISIP_Framework\ISIP_FrameworkGUI\obj\x86\Debug\ISIP_FrameworkGUI.g.resources
+C:\Users\iplajer\Documents\Facultate\PrelImag\ISIP2016\Interfata2014\ISIP_Framework\ISIP_FrameworkGUI\obj\x86\Debug\ISIP_FrameworkGUI.Properties.Resources.resources
+C:\Users\iplajer\Documents\Facultate\PrelImag\ISIP2016\Interfata2014\ISIP_Framework\ISIP_FrameworkGUI\obj\x86\Debug\ISIP_FrameworkGUI.csproj.GenerateResource.Cache
+C:\Users\iplajer\Documents\Facultate\PrelIm2016\ISIP2016\Interfata2014\ISIP_Framework\ISIP_FrameworkGUI\obj\x86\Debug\ISIP_FrameworkGUI.exe
+C:\Users\iplajer\Documents\Facultate\PrelIm2016\ISIP2016\Interfata2014\ISIP_Framework\ISIP_FrameworkGUI\obj\x86\Debug\ISIP_FrameworkGUI.pdb
+C:\Users\iplajer\Documents\Facultate\PrelIm2016\ISIP2016\Interfata2014\ISIP_Framework\bin\Debug\ISIP_FrameworkGUI.exe
+C:\Users\iplajer\Documents\Facultate\PrelIm2016\ISIP2016\Interfata2014\ISIP_Framework\bin\Debug\ISIP_FrameworkGUI.pdb
+C:\Users\iplajer\Documents\Facultate\PrelIm2016\ISIP2016\Interfata2014\ISIP_Framework\ISIP_FrameworkGUI\obj\x86\Debug\ISIP_FrameworkGUI.csprojResolveAssemblyReference.cache
+C:\Users\iplajer\Documents\Facultate\PrelIm2016\ISIP2016\Interfata2014\ISIP_Framework\ISIP_FrameworkGUI\obj\x86\Debug\MainWindow.baml
+C:\Users\iplajer\Documents\Facultate\PrelIm2016\ISIP2016\Interfata2014\ISIP_Framework\ISIP_FrameworkGUI\obj\x86\Debug\MainWindow.g.cs
+C:\Users\iplajer\Documents\Facultate\PrelIm2016\ISIP2016\Interfata2014\ISIP_Framework\ISIP_FrameworkGUI\obj\x86\Debug\App.g.cs
+C:\Users\iplajer\Documents\Facultate\PrelIm2016\ISIP2016\Interfata2014\ISIP_Framework\ISIP_FrameworkGUI\obj\x86\Debug\ISIP_FrameworkGUI_MarkupCompile.cache
+C:\Users\iplajer\Documents\Facultate\PrelIm2016\ISIP2016\Interfata2014\ISIP_Framework\ISIP_FrameworkGUI\obj\x86\Debug\ISIP_FrameworkGUI.g.resources
+C:\Users\iplajer\Documents\Facultate\PrelIm2016\ISIP2016\Interfata2014\ISIP_Framework\ISIP_FrameworkGUI\obj\x86\Debug\ISIP_FrameworkGUI.Properties.Resources.resources
+C:\Users\iplajer\Documents\Facultate\PrelIm2016\ISIP2016\Interfata2014\ISIP_Framework\ISIP_FrameworkGUI\obj\x86\Debug\ISIP_FrameworkGUI.csproj.GenerateResource.Cache
+C:\Users\iplajer\Documents\Facultate\PrelIm2016\ISIP2016\Interfata2014\ISIP_Framework\ISIP_FrameworkGUI\obj\x86\Debug\Windows\GLine.baml
+C:\Users\iplajer\Documents\Facultate\PrelIm2016\ISIP2016\Interfata2014\ISIP_Framework\ISIP_FrameworkGUI\obj\x86\Debug\Windows\Magnifyer.baml
+C:\Users\iplajer\Documents\Facultate\PrelIm2016\ISIP2016\Interfata2014\ISIP_Framework\ISIP_FrameworkGUI\obj\x86\Debug\Windows\GLine.g.cs
+C:\Users\iplajer\Documents\Facultate\PrelIm2016\ISIP2016\Interfata2014\ISIP_Framework\ISIP_FrameworkGUI\obj\x86\Debug\Windows\Magnifyer.g.cs
+C:\Users\iplajer\Documents\Facultate\PrelIm2016\Curs\FrameworkStudenti2018\WPF_Framework\Interfata2014\ISIP_Framework\ISIP_FrameworkGUI\obj\x86\Debug\ISIP_FrameworkGUI.exe
+C:\Users\iplajer\Documents\Facultate\PrelIm2016\Curs\FrameworkStudenti2018\WPF_Framework\Interfata2014\ISIP_Framework\ISIP_FrameworkGUI\obj\x86\Debug\ISIP_FrameworkGUI.pdb
+C:\Users\Lucian\Desktop\WPF_Framework\Interfata2014\ISIP_Framework\bin\Debug\ISIP_FrameworkGUI.exe
+C:\Users\Lucian\Desktop\WPF_Framework\Interfata2014\ISIP_Framework\bin\Debug\ISIP_FrameworkGUI.pdb
+C:\Users\Lucian\Desktop\WPF_Framework\Interfata2014\ISIP_Framework\ISIP_FrameworkGUI\obj\x86\Debug\ISIP_FrameworkGUI.csprojAssemblyReference.cache
+C:\Users\Lucian\Desktop\WPF_Framework\Interfata2014\ISIP_Framework\ISIP_FrameworkGUI\obj\x86\Debug\MainWindow.baml
+C:\Users\Lucian\Desktop\WPF_Framework\Interfata2014\ISIP_Framework\ISIP_FrameworkGUI\obj\x86\Debug\Windows\GLine.baml
+C:\Users\Lucian\Desktop\WPF_Framework\Interfata2014\ISIP_Framework\ISIP_FrameworkGUI\obj\x86\Debug\Windows\Magnifyer.baml
+C:\Users\Lucian\Desktop\WPF_Framework\Interfata2014\ISIP_Framework\ISIP_FrameworkGUI\obj\x86\Debug\MainWindow.g.cs
+C:\Users\Lucian\Desktop\WPF_Framework\Interfata2014\ISIP_Framework\ISIP_FrameworkGUI\obj\x86\Debug\Windows\GLine.g.cs
+C:\Users\Lucian\Desktop\WPF_Framework\Interfata2014\ISIP_Framework\ISIP_FrameworkGUI\obj\x86\Debug\Windows\Magnifyer.g.cs
+C:\Users\Lucian\Desktop\WPF_Framework\Interfata2014\ISIP_Framework\ISIP_FrameworkGUI\obj\x86\Debug\App.g.cs
+C:\Users\Lucian\Desktop\WPF_Framework\Interfata2014\ISIP_Framework\ISIP_FrameworkGUI\obj\x86\Debug\ISIP_FrameworkGUI_MarkupCompile.cache
+C:\Users\Lucian\Desktop\WPF_Framework\Interfata2014\ISIP_Framework\ISIP_FrameworkGUI\obj\x86\Debug\ISIP_FrameworkGUI.g.resources
+C:\Users\Lucian\Desktop\WPF_Framework\Interfata2014\ISIP_Framework\ISIP_FrameworkGUI\obj\x86\Debug\ISIP_FrameworkGUI.Properties.Resources.resources
+C:\Users\Lucian\Desktop\WPF_Framework\Interfata2014\ISIP_Framework\ISIP_FrameworkGUI\obj\x86\Debug\ISIP_FrameworkGUI.csproj.GenerateResource.cache
+C:\Users\Lucian\Desktop\WPF_Framework\Interfata2014\ISIP_Framework\ISIP_FrameworkGUI\obj\x86\Debug\ISIP_FrameworkGUI.csproj.CoreCompileInputs.cache
+C:\Users\Lucian\Desktop\WPF_Framework\Interfata2014\ISIP_Framework\ISIP_FrameworkGUI\obj\x86\Debug\ISIP_FrameworkGUI.csproj.CopyComplete
+C:\Users\Lucian\Desktop\WPF_Framework\Interfata2014\ISIP_Framework\ISIP_FrameworkGUI\obj\x86\Debug\ISIP_FrameworkGUI.exe
+C:\Users\Lucian\Desktop\WPF_Framework\Interfata2014\ISIP_Framework\ISIP_FrameworkGUI\obj\x86\Debug\ISIP_FrameworkGUI.pdb
