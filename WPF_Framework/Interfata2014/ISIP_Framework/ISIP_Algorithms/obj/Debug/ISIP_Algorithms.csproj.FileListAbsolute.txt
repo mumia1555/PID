@@ -41,3 +41,10 @@ C:\Users\Lucian\Desktop\WPF_Framework\Interfata2014\ISIP_Framework\ISIP_Algorith
 C:\Users\Lucian\Desktop\WPF_Framework\Interfata2014\ISIP_Framework\ISIP_Algorithms\obj\Debug\ISIP_Algorithms.csproj.CopyComplete
 C:\Users\Lucian\Desktop\WPF_Framework\Interfata2014\ISIP_Framework\ISIP_Algorithms\obj\Debug\ISIP_Algorithms.dll
 C:\Users\Lucian\Desktop\WPF_Framework\Interfata2014\ISIP_Framework\ISIP_Algorithms\obj\Debug\ISIP_Algorithms.pdb
+C:\PID\PID\WPF_Framework\Interfata2014\ISIP_Framework\bin\Debug\ISIP_Algorithms.dll
+C:\PID\PID\WPF_Framework\Interfata2014\ISIP_Framework\bin\Debug\ISIP_Algorithms.pdb
+C:\PID\PID\WPF_Framework\Interfata2014\ISIP_Framework\ISIP_Algorithms\obj\Debug\ISIP_Algorithms.csprojAssemblyReference.cache
+C:\PID\PID\WPF_Framework\Interfata2014\ISIP_Framework\ISIP_Algorithms\obj\Debug\ISIP_Algorithms.csproj.CoreCompileInputs.cache
+C:\PID\PID\WPF_Framework\Interfata2014\ISIP_Framework\ISIP_Algorithms\obj\Debug\ISIP_Algorithms.csproj.CopyComplete
+C:\PID\PID\WPF_Framework\Interfata2014\ISIP_Framework\ISIP_Algorithms\obj\Debug\ISIP_Algorithms.dll
+C:\PID\PID\WPF_Framework\Interfata2014\ISIP_Framework\ISIP_Algorithms\obj\Debug\ISIP_Algorithms.pdb

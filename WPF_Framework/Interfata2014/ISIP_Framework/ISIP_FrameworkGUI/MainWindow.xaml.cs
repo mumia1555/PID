@@ -129,8 +129,77 @@ namespace ISIP_FrameworkGUI
 
         }
 
-        private void Invert_Click(object sender, RoutedEventArgs e)
+        private void ThresholdingAdaptiv_Click(object sender, RoutedEventArgs e)
         {
+            if (mainControl.OriginalGrayscaleImage != null)
+            {
+
+                mainControl.ProcessedGrayscaleImage = Tools.ThresholdingAdaptiv(mainControl.OriginalGrayscaleImage);
+            }
+
+        }
+
+        private void Invert_Click(object sender, RoutedEventArgs e)
+        {public static Image<Gray, byte> ThresholdingAdaptiv(Image<Gray, byte> InputImage)
+        {
+            int dim = 0;
+            double b = 0;
+            Image<Gray, byte> result = new Image<Gray, byte>(InputImage.Size);
+            int[,] integrala = new int[InputImage.Height,InputImage.Width];
+
+            UserInputDialog dlg = new UserInputDialog("Binary Thresholds", new string[] { "dim", "b" }, 300, 250);
+            if (dlg.ShowDialog().Value == true) {
+                dim = (int)dlg.Values[0];
+                b = (double)dlg.Values[1];
+            }
+
+            for (int y = 0; y < InputImage.Height; y++) {
+                for (int x = 0; x < InputImage.Width; x++) {
+                    if (x == 0 && y == 0) {
+                        integrala[y, x] = (InputImage.Data[0, 0, 0]);
+                    } else if (x == 0) {
+                        integrala[y, x] = (integrala[y - 1, 0] + InputImage.Data[y, 0, 0]);
+                    } else if (y == 0) {
+                        integrala[y, x] = (integrala[0, x - 1] + InputImage.Data[0, x, 0]);
+                    } else {
+                        integrala[y, x] = (integrala[y, x - 1] + integrala[y - 1, x] - integrala[y - 1, x - 1] + InputImage.Data[y, x, 0]);
+                    }
+
+                }
+            }
+            for (int y = 0; y < InputImage.Height; y += dim) {
+                for (int x = 0; x < InputImage.Width; x += dim) {
+                    int sum = 0;
+                    int x0 = x - 1, x1 = x + dim - 1, y0 = y - 1, y1 = y + dim - 1;
+                    if (x1 > InputImage.Width - 1)
+                        x1 = InputImage.Width - 1;
+                    if (y1 > InputImage.Height - 1)
+                        y1 = InputImage.Height - 1;
+
+                    if (x == 0 && y == 0) {
+                        sum = integrala[y1, x1];
+                    } else if (y == 0) {
+                        sum = integrala[y1, x1] - integrala[y1, x0];
+                    } else if (x == 0) {
+                        sum = integrala[y1, x1] - integrala[y0, x1];
+                    } else {
+                        sum = integrala[y1, x1] + integrala[y0, x0] - integrala[y1, x0] - integrala[y0, x1];
+                    }
+                    double T = (double)b * sum / ((y1-y0)*(x1-x0));
+                    for (int j = y; j <= y1; j++) {
+                        for (int i = x; i <= x1; i++) {
+                            if (InputImage.Data[j, i, 0] <= T) {
+                                result.Data[j, i, 0] = 0; 
+                            } else {
+                                result.Data[j, i, 0] = 255; 
+                            }
+                        }
+                    }
+
+                }
+            }
+                    return result;
+        }
             if (mainControl.OriginalGrayscaleImage != null)
             {
 
