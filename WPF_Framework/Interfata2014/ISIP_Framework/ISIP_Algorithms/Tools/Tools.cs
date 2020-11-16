@@ -68,12 +68,14 @@ namespace ISIP_Algorithms.Tools
             Image<Gray, byte> result = new Image<Gray, byte>(InputImage.Size);
             int[,] integrala = new int[InputImage.Height, InputImage.Width];
 
-            UserInputDialog dlg = new UserInputDialog("Binary Thresholds", new string[] { "dim", "b" }, 300, 250);
+            UserInputDialog dlg = new UserInputDialog("Binary Thresholds", new string[] { "dim", "b" });
             if (dlg.ShowDialog().Value == true)
             {
                 dim = (int)dlg.Values[0];
                 b = (double)dlg.Values[1];
             }
+            if (dim % 2 == 0)
+                dim++;
 
             for (int y = 0; y < InputImage.Height; y++)
             {
@@ -98,16 +100,16 @@ namespace ISIP_Algorithms.Tools
 
                 }
             }
-            for (int y = 0; y < InputImage.Height; y += dim)
+
+            for (int y = 0; y < InputImage.Height; y++)
             {
-                for (int x = 0; x < InputImage.Width; x += dim)
+                for (int x = 0; x < InputImage.Width; x++)
                 {
                     int sum = 0;
-                    int x0 = x - 1, x1 = x + dim - 1, y0 = y - 1, y1 = y + dim - 1;
-                    if (x1 > InputImage.Width - 1)
-                        x1 = InputImage.Width - 1;
-                    if (y1 > InputImage.Height - 1)
-                        y1 = InputImage.Height - 1;
+                    int x0 = Math.Max(x - dim / 2, 0),
+                        x1 = Math.Min(x + dim / 2 - 1, InputImage.Width - 1),
+                        y0 = Math.Max(y - dim / 2, 0),
+                        y1 = Math.Min(y + dim / 2 - 1, InputImage.Height - 1);
 
                     if (x == 0 && y == 0)
                     {
@@ -125,24 +127,97 @@ namespace ISIP_Algorithms.Tools
                     {
                         sum = integrala[y1, x1] + integrala[y0, x0] - integrala[y1, x0] - integrala[y0, x1];
                     }
+
                     double T = (double)b * sum / ((y1 - y0) * (x1 - x0));
-                    for (int j = y; j <= y1; j++)
+                    if (InputImage.Data[y, x, 0] <= T)
                     {
-                        for (int i = x; i <= x1; i++)
-                        {
-                            if (InputImage.Data[j, i, 0] <= T)
-                            {
-                                result.Data[j, i, 0] = 0;
-                            }
-                            else
-                            {
-                                result.Data[j, i, 0] = 255;
-                            }
-                        }
+                        result.Data[y, x, 0] = 0;
+                    }
+                    else
+                    {
+                        result.Data[y, x, 0] = 255;
+                    }
+                }
+            }
+
+            return result;
+        }
+        public static void ImagineIntegrala(Image<Gray, byte> InputImage, int[,] integrala)
+        {
+            for (int y = 0; y < InputImage.Height; y++)
+            {
+                for (int x = 0; x < InputImage.Width; x++)
+                {
+                    if (x == 0 && y == 0)
+                    {
+                        integrala[y, x] = (InputImage.Data[0, 0, 0]);
+                    }
+                    else if (x == 0)
+                    {
+                        integrala[y, x] = (integrala[y - 1, 0] + InputImage.Data[y, 0, 0]);
+                    }
+                    else if (y == 0)
+                    {
+                        integrala[y, x] = (integrala[0, x - 1] + InputImage.Data[0, x, 0]);
+                    }
+                    else
+                    {
+                        integrala[y, x] = (integrala[y, x - 1] + integrala[y - 1, x] - integrala[y - 1, x - 1] + InputImage.Data[y, x, 0]);
                     }
 
                 }
             }
+        }
+
+        public static Image<Gray, byte> FiltruMA(Image<Gray, byte> InputImage)
+        {
+            int dim = 0;
+            int[,] integrala = new int[InputImage.Height, InputImage.Width];
+            Image<Gray, byte> result = new Image<Gray, byte>(InputImage.Size);
+            result.Data = InputImage.Data;
+
+            UserInputDialog dlg = new UserInputDialog("Binary Thresholds", new string[] { "dim" });
+            if (dlg.ShowDialog().Value == true)
+            {
+                dim = (int)dlg.Values[0];
+            }
+            if (dim % 2 == 0)
+                dim++;
+
+            ImagineIntegrala(InputImage, integrala);
+
+            for (int y = 0 + dim / 2; y < InputImage.Height - dim / 2; y++)
+            {
+                for (int x = 0 + dim / 2; x < InputImage.Width - dim / 2; x++)
+                {
+                    int sum = 0;
+
+                    int x0 = x - dim / 2,
+                       x1 = x + dim / 2,
+                       y0 = y - dim / 2,
+                       y1 = y + dim / 2;
+
+                    if (x == 0 && y == 0)
+                    {
+                        sum = integrala[y1, x1];
+                    }
+                    else if (y == 0)
+                    {
+                        sum = integrala[y1, x1] - integrala[y1, x0];
+                    }
+                    else if (x == 0)
+                    {
+                        sum = integrala[y1, x1] - integrala[y0, x1];
+                    }
+                    else
+                    {
+                        sum = integrala[y1, x1] + integrala[y0, x0] - integrala[y1, x0] - integrala[y0, x1];
+                    }
+                    sum /= dim * dim;
+                    result.Data[y, x, 0] = (byte)sum;
+                }
+            }
+
             return result;
         }
     }

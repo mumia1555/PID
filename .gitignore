@@ -1,11 +1,15 @@
 # Prerequisites
 *.d
+*.pdb
+*.suo
 
 # Compiled Object files
 *.slo
 *.lo
 *.o
 *.obj
+*.pdb
+*.suo
 
 # Precompiled Headers
 *.gch

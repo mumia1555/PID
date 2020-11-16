@@ -148,6 +148,16 @@ namespace ISIP_FrameworkGUI
             }
 
         }
+        private void FiltruMA_Click(object sender, RoutedEventArgs e)
+        {
+            if (mainControl.OriginalGrayscaleImage != null)
+            {
+
+                mainControl.ProcessedGrayscaleImage = Tools.FiltruMA(mainControl.OriginalGrayscaleImage);
+            }
+
+        }
+
 
         private void Magnifyer_ON_Click(object sender, RoutedEventArgs e)
         {

@@ -33,7 +33,8 @@
 
             </MenuItem>
             <MenuItem Header="Filters">
-                             
+                <MenuItem Header="Filtrul medie aritmetica" Click="FiltruMA_Click"/>
+
             </MenuItem>
             <MenuItem Header="Save as original image" HorizontalAlignment="Right"
                       Click="saveAsOriginalMenuItem_Click"/>
