@@ -34,6 +34,8 @@
             </MenuItem>
             <MenuItem Header="Filters">
                 <MenuItem Header="Filtrul medie aritmetica" Click="FiltruMA_Click"/>
+                <MenuItem Header="Filtru Vertical Sobel" Click="SobelFilterVertical_Click"></MenuItem>
+
 
             </MenuItem>
             <MenuItem Header="Save as original image" HorizontalAlignment="Right"

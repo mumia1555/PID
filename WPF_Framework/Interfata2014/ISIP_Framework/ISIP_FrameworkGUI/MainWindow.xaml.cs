@@ -157,6 +157,18 @@ namespace ISIP_FrameworkGUI
             }
 
         }
+        private void SobelFilterVertical_Click(object sender, RoutedEventArgs e)
+        {
+            if (mainControl.OriginalGrayscaleImage != null)
+            {
+                UserInputDialog dlg = new UserInputDialog("Threshold", new string[] { "Threshold" });
+                if (dlg.ShowDialog().Value == true)
+                {
+                    int threshold = (int)dlg.Values[0];
+                    mainControl.ProcessedGrayscaleImage = Tools.SobelFilterVertic(mainControl.OriginalGrayscaleImage, threshold);
+                }
+            }
+        }
 
 
         private void Magnifyer_ON_Click(object sender, RoutedEventArgs e)
