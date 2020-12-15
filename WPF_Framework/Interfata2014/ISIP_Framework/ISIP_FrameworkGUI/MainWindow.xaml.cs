@@ -171,6 +171,67 @@ namespace ISIP_FrameworkGUI
         }
 
 
+        private void Dilation_Click(object send, RoutedEventArgs e)
+        {
+            if (mainControl.OriginalGrayscaleImage != null)
+            {
+                UserInputDialog dlg = new UserInputDialog("Dilation", new string[] { "mask" });
+                if (dlg.ShowDialog().Value == true)
+                {
+                    int mask = (int)dlg.Values[0];
+                    if (mask % 2 == 0)
+                        mask++;
+                    mainControl.ProcessedGrayscaleImage = Tools.Dilation(mainControl.OriginalGrayscaleImage, mask);
+
+                }
+            }
+        }
+        private void Eroding_Click(object send, RoutedEventArgs e)
+        {
+            if (mainControl.OriginalGrayscaleImage != null)
+            {
+                UserInputDialog dlg = new UserInputDialog("Eroding", new string[] { "mask" });
+                if (dlg.ShowDialog().Value == true)
+                {
+                    int mask = (int)dlg.Values[0];
+                    if (mask % 2 == 0)
+                        mask++;
+                    mainControl.ProcessedGrayscaleImage = Tools.Eroding(mainControl.OriginalGrayscaleImage, mask);
+
+                }
+            }
+        }
+        private void Opening_Click(object send, RoutedEventArgs e)
+        {
+            if (mainControl.OriginalGrayscaleImage != null)
+            {
+                UserInputDialog dlg = new UserInputDialog("Opening", new string[] { "mask" });
+                if (dlg.ShowDialog().Value == true)
+                {
+                    int mask = (int)dlg.Values[0];
+                    if (mask % 2 == 0)
+                        mask++;
+                    mainControl.ProcessedGrayscaleImage = Tools.Opening(mainControl.OriginalGrayscaleImage, mask);
+
+                }
+            }
+        }
+        private void Closing_Click(object send, RoutedEventArgs e)
+        {
+            if (mainControl.OriginalGrayscaleImage != null)
+            {
+                UserInputDialog dlg = new UserInputDialog("Closing", new string[] { "mask" });
+                if (dlg.ShowDialog().Value == true)
+                {
+                    int mask = (int)dlg.Values[0];
+                    if (mask % 2 == 0)
+                        mask++;
+                    mainControl.ProcessedGrayscaleImage = Tools.Closing(mainControl.OriginalGrayscaleImage, mask);
+
+                }
+            }
+        }
+
         private void Magnifyer_ON_Click(object sender, RoutedEventArgs e)
         {
             if (mainControl.OriginalGrayscaleImage != null)
@@ -219,11 +280,6 @@ namespace ISIP_FrameworkGUI
                 }
             }
         }
-
-       
-       
-       
-
         
        
     }

@@ -38,6 +38,13 @@
 
 
             </MenuItem>
+
+            <MenuItem Header="Morpho">
+                <MenuItem Header="Dilation " Click="Dilation_Click"/>
+                <MenuItem Header="Eroding" Click="Eroding_Click"/>
+                <MenuItem Header="Opening " Click="Opening_Click"/>
+                <MenuItem Header="Closing" Click="Closing_Click"/>
+            </MenuItem>
             <MenuItem Header="Save as original image" HorizontalAlignment="Right"
                       Click="saveAsOriginalMenuItem_Click"/>
         </Menu>

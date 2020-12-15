@@ -192,7 +192,7 @@ namespace ISIP_Algorithms.Tools
                 {
                     int sum = 0;
 
-                    int x0 = x - dim / 2 -1,
+                    int x0 = x - dim / 2 - 1,
                        x1 = x + dim / 2,
                        y0 = y - dim / 2 - 1,
                        y1 = y + dim / 2;
@@ -233,13 +233,13 @@ namespace ISIP_Algorithms.Tools
                 for (int x = 1; x < InputImage.Width - 1; x++)
                 {
                     matrix[0, 0] = InputImage.Data[y - 1, x - 1, 0];
-                    matrix[0, 1] = InputImage.Data[y - 1, x, 0];
-                    matrix[0, 2] = InputImage.Data[y - 1, x + 1, 0];
-                    matrix[1, 0] = InputImage.Data[y, x - 1, 0];
+                    matrix[1, 0] = InputImage.Data[y - 1, x, 0];
+                    matrix[2, 0] = InputImage.Data[y - 1, x + 1, 0];
+                    matrix[0, 1] = InputImage.Data[y, x - 1, 0];
                     matrix[1, 1] = InputImage.Data[y, x, 0];
-                    matrix[1, 2] = InputImage.Data[y, x + 1, 0];
-                    matrix[2, 0] = InputImage.Data[y + 1, x - 1, 0];
-                    matrix[2, 1] = InputImage.Data[y + 1, x, 0];
+                    matrix[2, 1] = InputImage.Data[y, x + 1, 0];
+                    matrix[0, 2] = InputImage.Data[y + 1, x - 1, 0];
+                    matrix[1, 2] = InputImage.Data[y + 1, x, 0];
                     matrix[2, 2] = InputImage.Data[y + 1, x + 1, 0];
 
                     SX[y, x] = Sx(matrix);
@@ -252,13 +252,13 @@ namespace ISIP_Algorithms.Tools
                 for (int y = 1; y < InputImage.Height - 1; y++)
                 {
                     matrix[0, 0] = InputImage.Data[y - 1, x - 1, 0];
-                    matrix[0, 1] = InputImage.Data[y - 1, x, 0];
-                    matrix[0, 2] = InputImage.Data[y - 1, x + 1, 0];
-                    matrix[1, 0] = InputImage.Data[y, x - 1, 0];
+                    matrix[1, 0] = InputImage.Data[y - 1, x, 0];
+                    matrix[2, 0] = InputImage.Data[y - 1, x + 1, 0];
+                    matrix[0, 1] = InputImage.Data[y, x - 1, 0];
                     matrix[1, 1] = InputImage.Data[y, x, 0];
-                    matrix[1, 2] = InputImage.Data[y, x + 1, 0];
-                    matrix[2, 0] = InputImage.Data[y + 1, x - 1, 0];
-                    matrix[2, 1] = InputImage.Data[y + 1, x, 0];
+                    matrix[2, 1] = InputImage.Data[y, x + 1, 0];
+                    matrix[0, 2] = InputImage.Data[y + 1, x - 1, 0];
+                    matrix[1, 2] = InputImage.Data[y + 1, x, 0];
                     matrix[2, 2] = InputImage.Data[y + 1, x + 1, 0];
 
                     SY[y, x] = Sy(matrix);//
@@ -276,9 +276,8 @@ namespace ISIP_Algorithms.Tools
                     {
                         double angle = Math.Atan2(SY[i, j], SX[i, j]);
                         int degrees = (int)(angle * 180 / Math.PI);
-                        Console.WriteLine(degrees);
-                        if (degrees >= 86 && degrees <= 96 || degrees <= -85 && degrees >= -95)
-                            ResultImage.Data[i, j, 0] = (byte)(16 / 45 * angle + 127);
+                        if ((degrees >= -5 && degrees <= 5) || (degrees >= -180 && degrees <= -175) || (degrees >= 175 && degrees <= 180))
+                            ResultImage.Data[i, j, 0] = 255;
                     }
                 }
             }
@@ -292,5 +291,55 @@ namespace ISIP_Algorithms.Tools
         {
             return (matrix[0, 2] - matrix[0, 0] + 2 * matrix[1, 2] - 2 * matrix[1, 0] + matrix[2, 2] - matrix[2, 0]);
         }
+
+        public static bool Check(Image<Gray, byte> InputImage, int x, int y, int mask, int value)
+        {
+            for (int j = y - mask / 2; j <= y + mask / 2; j++)
+                for (int i = x - mask / 2; i <= x + mask / 2; i++)
+                    if (InputImage.Data[j, i, 0] == value)
+                        return true;
+            return false;
+        }
+        public static Image<Gray, byte> Dilation(Image<Gray, byte> InputImage, int mask)
+        {
+            Image<Gray, byte> ResultImage = new Image<Gray, byte>(InputImage.Size);
+            for (int y = mask / 2; y < InputImage.Height - mask / 2; y++)
+            {
+                for (int x = mask / 2; x < InputImage.Width - mask / 2; x++)
+                {
+                    if (Check(InputImage, x, y, mask, 255))
+                        ResultImage.Data[y, x, 0] = 255;
+                    else
+                        ResultImage.Data[y, x, 0] = 0;
+                }
+            }
+            return ResultImage;
+        }
+        public static Image<Gray, byte> Eroding(Image<Gray, byte> InputImage, int mask)
+        {
+            Image<Gray, byte> ResultImage = new Image<Gray, byte>(InputImage.Size);
+            for (int y = mask / 2; y < InputImage.Height - mask / 2; y++)
+            {
+                for (int x = mask / 2; x < InputImage.Width - mask / 2; x++)
+                {
+                    if (Check(InputImage, x, y, mask, 0))
+                        ResultImage.Data[y, x, 0] = 0;
+                    else
+                        ResultImage.Data[y, x, 0] = 255;
+                }
+            }
+            return ResultImage;
+        }
+        public static Image<Gray, byte> Opening(Image<Gray, byte> InputImage, int mask)
+        {
+            Image<Gray, byte> ResultImage = Eroding(InputImage, mask);
+            return Dilation(ResultImage, mask);
+        }
+        public static Image<Gray, byte> Closing(Image<Gray, byte> InputImage, int mask)
+        {
+            Image<Gray, byte> ResultImage = Dilation(InputImage, mask);
+            return Eroding(ResultImage, mask);
+        }
     }
 }
+
