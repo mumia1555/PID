@@ -23,6 +23,29 @@ namespace ISIP_Algorithms.Tools
             }
             return Result;
         }
+
+        public static Image<Gray, byte> Binarizare(Image<Gray, byte> InputImage)
+        {
+            int T = 0;
+            UserInputDialog dlg = new UserInputDialog("T", new string[] { "T" }, 300, 250);
+            if (dlg.ShowDialog().Value == true)
+            {
+                T = (int)dlg.Values[0];
+            }
+            Image<Gray, byte> Result = new Image<Gray, byte>(InputImage.Size);
+            for (int y = 0; y < InputImage.Height; y++)
+            {
+                for (int x = 0; x < InputImage.Width; x++)
+                {
+                    if (InputImage.Data[y, x, 0] < T)
+                        Result.Data[y, x, 0] = 0;
+                    else
+                        Result.Data[y, x, 0] = 255;
+                }
+            }
+            return Result;
+        }
+
         public static Image<Gray, byte> OperatorAfin(Image<Gray, byte> InputImage)
         {
             int r1 = 0, r2 = 0, s1 = 0, s2 = 0;
@@ -243,25 +266,7 @@ namespace ISIP_Algorithms.Tools
                     matrix[2, 2] = InputImage.Data[y + 1, x + 1, 0];
 
                     SX[y, x] = Sx(matrix);
-                }
-            }
-
-
-            for (int x = 1; x < InputImage.Width - 1; x++)
-            {
-                for (int y = 1; y < InputImage.Height - 1; y++)
-                {
-                    matrix[0, 0] = InputImage.Data[y - 1, x - 1, 0];
-                    matrix[1, 0] = InputImage.Data[y - 1, x, 0];
-                    matrix[2, 0] = InputImage.Data[y - 1, x + 1, 0];
-                    matrix[0, 1] = InputImage.Data[y, x - 1, 0];
-                    matrix[1, 1] = InputImage.Data[y, x, 0];
-                    matrix[2, 1] = InputImage.Data[y, x + 1, 0];
-                    matrix[0, 2] = InputImage.Data[y + 1, x - 1, 0];
-                    matrix[1, 2] = InputImage.Data[y + 1, x, 0];
-                    matrix[2, 2] = InputImage.Data[y + 1, x + 1, 0];
-
-                    SY[y, x] = Sy(matrix);//
+                    SY[y, x] = Sy(matrix);
                 }
             }
 
@@ -276,7 +281,7 @@ namespace ISIP_Algorithms.Tools
                     {
                         double angle = Math.Atan2(SY[i, j], SX[i, j]);
                         int degrees = (int)(angle * 180 / Math.PI);
-                        if ((degrees >= -5 && degrees <= 5) || (degrees >= -180 && degrees <= -175) || (degrees >= 175 && degrees <= 180))
+                        if ((degrees >= 85 && degrees <= 95) || (degrees <= -85 && degrees >= -95))
                             ResultImage.Data[i, j, 0] = 255;
                     }
                 }
@@ -340,6 +345,60 @@ namespace ISIP_Algorithms.Tools
             Image<Gray, byte> ResultImage = Dilation(InputImage, mask);
             return Eroding(ResultImage, mask);
         }
+        public static Image<Gray, byte> Twirl(Image<Gray, byte> inputImage)
+        {
+            double alfa = 0, rmax = 0;
+            UserInputDialog dlg = new UserInputDialog("", new string[] { "alfa", "r max" });
+            if (dlg.ShowDialog().Value == true)
+            {
+                alfa = (double)dlg.Values[0];
+                rmax = (double)dlg.Values[0];
+            }
+            alfa = Math.PI * alfa / 180;
+
+            Image<Gray, byte> result = new Image<Gray, byte>(inputImage.Size);
+            result.Data = inputImage.Data;
+            int xo = result.Width / 2;
+            int yo = result.Height / 2;
+
+
+            for (int y = 0; y < result.Height; y++)
+                for (int x = 0; x < result.Width; x++)
+                {
+                    int dx = x - xo;
+                    int dy = y - yo;
+                    double r = Math.Sqrt(Math.Pow(dx, 2) + Math.Pow(dy, 2));
+                    double beta = Math.Atan2(dy, dx) + alfa * ((rmax - r) / rmax);
+                    double xC;
+                    double yC;
+                    if (r > rmax)
+                    {
+                        xC = x;
+                        yC = y;
+                    }
+                    else
+                    {
+                        xC = xo + r * Math.Cos(beta);
+                        yC = yo + r * Math.Sin(beta);
+                    }
+
+                    int x0 = (int)xC;
+                    int y0 = (int)yC;
+
+                    if (x0 + 1 < result.Width && y0 + 1 < result.Height)
+                    {
+                        double firstValue = (inputImage.Data[y0, x0 + 1, 0] - inputImage.Data[y0, x0, 0]) * (xC - x0) + inputImage.Data[y0, x0, 0];
+                        double secondValue = (inputImage.Data[y0 + 1, x0 + 1, 0] - inputImage.Data[y0 + 1, x0, 0]) * (xC - x0) + inputImage.Data[y0 + 1, x0, 0];
+                        double finalValue = (secondValue - firstValue) * (yC - y0) + firstValue;
+
+                        result.Data[y, x, 0] = (byte)finalValue;
+                    }
+
+
+                }
+            return result;
+        }
+
     }
 }
 

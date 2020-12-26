@@ -148,6 +148,16 @@ namespace ISIP_FrameworkGUI
             }
 
         }
+
+        private void Binarizare_Click(object sender, RoutedEventArgs e)
+        {
+            if (mainControl.OriginalGrayscaleImage != null)
+            {
+                mainControl.ProcessedGrayscaleImage = Tools.Binarizare(mainControl.OriginalGrayscaleImage);
+            }
+
+        }
+
         private void FiltruMA_Click(object sender, RoutedEventArgs e)
         {
             if (mainControl.OriginalGrayscaleImage != null)
